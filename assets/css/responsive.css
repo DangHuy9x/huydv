@@ -1,0 +1,101 @@
+/* PC */
+@media(min-width: 1024px){
+    #header #mobile-menu{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media(min-width: 740px) and (max-width: 1023px){
+    
+}
+
+
+/* Mobile */
+@media(max-width: 740px){
+
+    .s-col-full{
+        width: 100%;
+    }
+
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav {
+        background-color: #000;
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #000;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 1px 50px;
+    }
+
+    .text-heading{
+        font-weight: 550;
+        font-size: 15px;
+    }
+    .text-description{
+        font-weight: 450;
+        font-size: 10px;
+    }
+
+    #content .col img{
+        width: 50%;
+        /* Bo góc tròn cho ảnh */
+        border-radius: 4px;
+    }
+
+    #tickets .col img{
+        width: 100%;
+    }
+
+    #tickets .col button {
+        margin-left: 40%;
+        padding: 10px;
+    }
+
+    .place-body {
+        height: auto;
+    }
+
+    .place-desc{
+        height: auto;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    
+
+}
